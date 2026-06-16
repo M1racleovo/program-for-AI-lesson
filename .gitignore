@@ -1,0 +1,38 @@
+# 数据集 & 模型权重 (太大，不上传 GitHub)
+data/
+*.h5
+*.pt
+
+# 输出文件 (本地分析结果，每个环境不同)
+output/*.csv
+output/*.txt
+output/*.pptx
+output/charts/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+temp_imgs/
+*.part
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
